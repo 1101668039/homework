@@ -1,0 +1,294 @@
+ * {
+	 	margin: 0;
+	 	padding: 0;
+	 }
+     .layout {
+        width: 1280px;
+        margin: 0 auto;
+     }
+	 #nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, .5);
+        height: 70px;
+        line-height: 80px;
+        width: 100%;
+        z-index: 100;
+     }
+     ul,li {
+     	list-style: none;
+     }
+     a {
+     	text-decoration: none;
+     }
+     #nav>.ct {
+     	margin: 0 40px;
+     }
+    .guide {
+        position: relative;
+        width: 200px;
+        float: left;
+     }
+     .guide>a {
+     	
+        color: #0d76d7;
+        font-size: 30px;
+     }
+     
+     #nav>.ct>ul {
+        float: right;
+     }
+     
+     #nav>.ct>ul>li {
+        margin-right: 10px;
+        float: left;
+    }
+     #nav>.ct>ul>li>a {
+     	color: #0d76d7;
+        font-size: 20px;
+    }
+     #nav>.ct>ul>li>a:hover {
+      	color: #ff7200;
+    }
+    #header {
+            width: 100%;
+            height: 600px;
+            background: url("http://imgsrc.baidu.com/forum/pic/item/052cb87c2c7f6e0d9922edb4.jpg") no-repeat;
+            background-size: cover;
+    }
+    #header>.ct {
+            width: 1000px;
+            height: 1200px;
+            position: absolute;
+            text-align: center;
+            color: #fff;
+            top: 50%;
+            left: 50%;
+            margin-left: -500px;
+            margin-top: -150px;
+        }
+        #header>.ct>h3{
+            line-height: 40px;
+            font-size: 40px;
+            margin-bottom: 25px;
+            font-weight: bold;
+        }
+        #header>.ct>h1{
+            font-weight: bold;
+            font-size: 70px;
+            margin-bottom: 55px;
+        }
+        #header>.ct>a{
+            
+            color: #fff;
+            background-color: #0d76d7;
+            font-size: 19px;
+            padding: 20px 40px;
+            border-radius: 3px;
+        } 
+        #header>.ct>a:hover {
+        	color: #ff7200;
+        } 
+        .major{
+            background-color: #fff;
+        }
+        .major>.ct{
+        	padding-top: 50px;
+            margin: 0 auto;
+            width: 80%;
+        }
+        .major>.ct>h2{
+            line-height: 40px;
+            font-size: 40px;
+            margin-bottom: 25px;
+            padding-left: 10px;
+            border-left: 5px solid #0d76d7;
+        }
+        .half>#img1,.half>#img2 {
+        	border-radius: 50%;
+        	box-shadow: 0 4px 6px 3px #eee;
+
+        }
+        .half {
+        	width: 40%;
+        	text-align: center;
+        	height: 450px;
+        	margin: 20px;
+        	padding: 30px;
+        }
+        .half:first-child {
+        	float: left;
+        }
+        .half:nth-child(2)
+        {
+          float:left;
+        }
+        .clearfix:after {
+        	content: '';
+        	display: block;
+        	clear: both ;
+        }
+        .half {
+            box-shadow: 0 6px 9px 6px #eee;
+        	background-color: #e5dfbb;
+        }
+        
+        #picture>.ct>h2 {
+            line-height: 40px;
+            font-size: 40px;
+            margin-bottom: 25px;
+            padding-left: 10px;
+            border-left: 5px solid #0d76d7;
+        }
+        #picture {
+            margin-top: 50px;
+
+        }
+        #picture>.ct {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .two img {
+        	width:270px;
+            height: 150px;
+            margin: 0px;
+        }
+
+        .two ul li {
+            display: block;
+            width: 270px;
+            height: 200px;
+            float: left;
+            margin: 35px;
+            text-align: center;
+            box-shadow: 0 6px 10px 3px rgba(0,0,0,0.3);
+        }
+        .two ul li p {
+            line-height: 50px;
+        }
+        .others {
+            margin-top: 50px;
+            background-color: #fff;
+        }
+        .others .ct {
+           width: 80%;
+           margin: 0 auto;
+           position: relative; 
+        }
+        .others .ct h2 {
+            line-height: 40px;
+            font-size: 40px;
+            margin-bottom: 25px;
+            padding-left: 10px;
+            border-left: 5px solid #0d76d7;
+        }
+       
+        .others .ct ul li img {
+            border-radius: 50%;
+            box-shadow: 0 6px 10px 3px rgba(0,0,0,0.3);
+            margin-left: 40% ;
+        }
+
+        
+        .others .ct {
+            position: relative; 
+        }
+        .line:after {
+            content: '';
+            display: block;
+            border-left: 3px solid;
+            height: 750%;
+            margin-left: 160%;
+            margin-top:  -35%; 
+        }
+        .text-odd h3 {
+            line-height: 40px;
+        }
+        .text-even h3 {
+            line-height: 40px;
+        }
+        .text-odd {
+            
+            width: 300px;
+            height: 250px;
+            padding: 30px;
+            margin-top: -200px;
+            margin-right: 700px;
+         }
+        .text-even {
+            
+            width: 300px;
+            height: 250px;
+            padding: 30px;
+            margin-top: -200px;
+            margin-left:700px;
+        }
+        .join {
+           width: 100%;
+            height: 700px;
+            background: url("http://img4.duitang.com/uploads/item/201502/10/20150210203853_m2AP8.jpeg") no-repeat;
+            background-size: cover;
+            
+        }
+        .join>form {
+            width: 90%;
+            margin-left: 150px;
+            position: relative;
+        }
+        .join h2 {
+            line-height: 40px;
+            font-size: 40px;
+            text-align: center;
+            color: blue;
+            padding: 50px;
+            margin-bottom: 200px;
+        }
+        .join form ul li {
+            width: 50%;
+            float: left;
+            display: inline-block;
+        }
+        .join input[type=text] {
+            display: inline-block;
+            width: 70%;
+            height: 60px;
+            
+            margin-bottom: 20px;
+
+        }
+        .join textarea {
+            resize: none;
+            width: 80%;
+            height: 230px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+
+        }
+        .join input[type=submit] {
+            color: black;
+            background-color: orange;
+            font-size: 20px;
+            padding: 10px 30px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            position: relative;
+            left: 592px;
+        }
+        .join input[type=submit]:hover {
+            background-color: blue;
+        }
+        footer {
+            height: 50px;
+        }
+        footer ul {
+            padding: 20px;
+            background-color: #fff;
+            line-height: 50px ;
+            text-align: center;
+        }       
+
+
+        
+        
